@@ -1,0 +1,49 @@
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+.feedback-form {
+    margin-top: 15px;
+}
+
+input {
+    font-size: 16px;
+    border: 1px solid #808080;
+    border-radius: 4px;
+    width: 360px;
+    height: 40px;
+    padding-left: 16px;
+}
+
+textarea {
+    resize: none;
+    font-size: 16px;
+    border: 1px solid #808080;
+    border-radius: 4px;
+    width: 360px;
+    padding-left: 16px;
+    padding-top: 10px;
+}
+
+.feedback-form label {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 20px;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    margin-top: 16px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+    border-radius: 8px;
+    padding: 8px 16px;
+    width: 95px;
+    height: 40px;
+    background-color: #4e75ff;
+}

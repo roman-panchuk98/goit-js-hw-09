@@ -1,0 +1,17 @@
+.container {
+    width: 1158px;
+    margin: 0 auto;
+    padding: 24px 15px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.gallery-image {
+    width: 360px;
+    height: 200px;
+
+}
